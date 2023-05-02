@@ -1,13 +1,28 @@
 /* Your CSS Code here. */
-table {
-  width: 100%;
+table{
+    width:300px;
+    font-family:sans-serif;
 }
-th{
-	background-color:indianred;
+table , th,tr,td{
+    border:2px solid black;
+    border-collapse: collapse;
 }
-tr:first-child{
-	background-color: pink;
+table thead{
+    background-color:rgb(205, 107, 107);
+    color:white;
 }
-tr:last-child{
-	background-color: lightgray;
+/* this is for giving the alignment of text  */
+table tbody{
+    text-align: right;
+}
+table .left{
+    text-align: left;
+}
+/* ------------------------------- */
+table #first{
+    background-color: rgb(224, 163, 163);
+    color:white;
+}
+table .cream{
+background-color:rgb(221, 210, 210);
 }
